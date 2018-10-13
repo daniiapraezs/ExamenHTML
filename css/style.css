@@ -1,0 +1,399 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+
+}
+.slider img{
+	width: 100%;
+}
+
+.slider a{
+	text-decoration: none;
+}
+.slider{
+	position: relative;
+}
+.title{
+	text-align: center;
+	color: #2468B9;
+	font-size: 30px;
+}
+.container{
+	display:flex;	
+	padding-left: 20px;
+	padding-bottom: 30px;
+	justify-content: center
+}
+.card{
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #D6D2D2;	
+	overflow: hidden;
+	margin: 5px 10px;
+	height: 300px;
+	background: #0C6798;
+}
+
+
+
+
+.head-menu{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 20px;
+}
+.head-menu ul{
+	list-style: none;
+
+}
+.head-menu ul li{
+	display: inline-block;
+	margin: 5px 10px;
+	color: white;
+}
+.head-menu ul li a{
+	color: aliceblue;
+	font-weight: 900;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.main-menu ul li a:hover{
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+
+
+.title-card{
+
+	padding-top: 60px;
+    text-align: center;
+    color:white;
+}
+
+
+
+.title-card::after {
+	content: '';
+	background-color: white;
+	height: 1px;
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+.head-phones{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	font-size: 48px;
+	color: aliceblue;
+}
+.title-card-dos{
+
+	transform: skewY(-7deg);
+	padding-top: 70px;
+    text-align: center;
+    color:black;
+}
+
+.btn-card{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -26px;
+    margin-left: -95px;
+    color: white;
+    background: #0C6798;
+    text-align: center;
+    border-radius: 30px;
+    width: 190px;
+    height: 46px;
+    padding-top: 4px;
+    font-size: 30px;
+
+}
+.btn-card-dos{
+	position: absolute;
+    left: 10%;
+    top: 70%;
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 25px;
+    font-size: 25px;
+    
+
+}
+.diagonal-carduno{
+	
+	background-color: white;
+	margin-top: 50px;
+    padding-bottom: 190px;
+   transform: skewY(7deg);
+
+
+}
+.diagonal-carddos{
+	
+	background-color: white;
+	margin-top: 50px;
+    padding-bottom: 190px;
+   transform: skewY(7deg);
+
+
+}
+.diagonal-cardtres{
+	
+	background-color:white;
+	margin-top: 50px;
+    padding-bottom: 190px;
+   transform: skewY(7deg);
+
+}
+.section-musica{
+	background: blue;
+}
+.div-musica a{
+
+	text-decoration: none;
+	color: white;
+}
+
+.selection-musica{
+	background-color: #1A82A6;
+	background-image: linear-gradient(TO TOP, #67E8CF, #19396C );
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.selection-musica h1{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	
+}
+
+.footer{
+	background-color:#0C6798;
+	color:white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.header-registro{
+	background-color:#0C6798;
+	padding-top: 20px;
+    padding-bottom: 50px;
+}
+.btn-registro{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    border-radius: 15px;
+    background-color:#0C6798;
+    color: white;
+    border: none;
+}
+.card-registro{
+	    text-align: center;
+
+}
+
+.hr-registro1{
+	  width: 20px;
+	  display: inline-block;
+}
+
+
+
+.linea {
+  margin:0px 2px;
+  width:90px;    
+  border-top:1px solid #999;
+  position: relative;
+  top:10px;
+  float:left;
+  }
+
+.leyenda {
+  font-weight:bold;
+  float:left;
+ }
+
+ .linea-registro{
+ 	   display: flex;
+    justify-content: center;
+ }
+ .btn-registro-dos{
+ 	width: 200px;
+ 	color:#B9B9B9;
+ 	border-radius: 5px;
+    border: 1px solid #B9B9B9;
+
+ }
+ .div-registro{
+ 	padding-bottom: 10px;
+ 	
+ }
+ .container-registro{
+padding-top: 20px;
+ }
+ .div-calendario{
+
+ }
+
+ .listas-registro{
+ 	width: 50px;
+ 	margin: auto 9px;
+ 	color:#B9B9B9;
+ 	border-radius: 5px;
+    border: 1px solid #B9B9B9;
+ }
+ .div-check-registro{
+ 	color: #9A9797;
+ 	font-size: 12px;
+ 	margin-left: -33px;
+ 	margin-top: 15px;
+ }
+
+ .btn-registroDos{
+        margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #2468B9;
+    color: white;
+    border: none;
+}
+.cuenta{
+    display: inline-flex;
+    font-size: 15px;
+}
+.cuenta p{
+	color: gray;
+
+}
+.cuenta a{
+	text-decoration: none;
+	padding: 15px 10px;
+	color: #0C6798;
+	
+}
+.centrar{
+	padding-left: 142px;
+ }
+.lado{
+     margin-left: -8px;
+ }
+
+
+@media screen and (max-width: 768px){
+
+.card {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #D6D2D2;
+    overflow: hidden;
+    margin: 5px 10px;
+    height: 200px;
+    background: #0C6798;
+}
+.title-card {
+    padding-top: 16px;
+    text-align: center;
+    color: white;
+}
+
+.diagonal-carduno {
+    background-color: white;
+    padding-bottom: 28px;
+    transform: skewY(7deg);
+}
+.title-card-dos {
+    transform: skewY(-7deg);
+    padding-top: 13px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+@media screen and (max-width: 425px){
+
+.head-menu {
+    position: absolute;
+    top: -9px;
+    right: 6px;
+    font-size: 13px;
+}
+.head-menu ul li {
+    display: inline-block;
+    margin: 5px -2px;
+    color: white;
+    }
+
+.btn-card{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -24px;
+    margin-left: -85px;
+    color: white;
+    background: #0C6798;
+    text-align: center;
+    border-radius: 30px;
+    width: 171px;
+    height: 34px;
+    padding-top: 4px;
+    font-size: 24px;
+}
+.head-phones {
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    font-size: 33px;
+    color: aliceblue;
+    }
+
+ .btn-card-dos {
+    position: absolute;
+    left: 7%;
+    top: 70%;
+    color: white;
+    text-align: center;
+    width: 126px;
+    height: 25px;
+    font-size: 17px;
+}
+.container{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 110px;
+
+    }
+
+.centrar{
+    padding-left: 108px;
+}
+.selection-musica h1 {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+
+}
+
+
+
